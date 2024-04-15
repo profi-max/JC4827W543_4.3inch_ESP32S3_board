@@ -1,6 +1,8 @@
 # JC4827W543_board
  ESP32-S3 with 4.3' TFT 480x270 driver NV3041A and capacitive touch
 
+ Read Docs/Getting started.pdf
+
 ![JC4827W543_board](/Pictures/1-1.jpg)
 ![JC4827W543_board](/Pictures/1-2.png)
 
@@ -47,4 +49,3 @@ https://aliexpress.ru/item/1005004837211340.html
 ![JC4827W543_board](/Pictures/1-3.png)
 
 
-Read Docs/Getting started.pdf
