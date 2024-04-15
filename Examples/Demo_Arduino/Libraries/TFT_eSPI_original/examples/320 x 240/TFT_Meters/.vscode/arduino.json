@@ -1,0 +1,4 @@
+{
+    "configuration": "softdevice=none",
+    "board": "sandeepmistry:nRF5:OSHChip"
+}
