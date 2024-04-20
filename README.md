@@ -41,6 +41,7 @@ https://aliexpress.ru/item/1005004837211340.html
 ## Arduino example 3_3-3_TFT-LVGL-Widgets
 Select board:
 + u-blox NORA-W10 series (ESP32-S3)
+
 OR
 + ESP32S3 Dev module
 
