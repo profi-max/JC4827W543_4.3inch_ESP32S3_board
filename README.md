@@ -73,7 +73,9 @@ Need install library:
 + use functions from touch.h as shown below:
 ```
 #include "touch.h"
-//----------------------------
+//----------- setup -----------------
+touch_init(gfx->width(), gfx->height(), gfx->getRotation());
+//----------- loop -----------------
 if (touch_has_signal())
   {
     if (touch_touched())
