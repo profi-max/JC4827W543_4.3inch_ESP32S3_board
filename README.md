@@ -43,7 +43,7 @@ Select board:
 OR
 + ESP32S3 Dev module
 
-Need install library:
+Install library:
 + GFX Library for Arduino by Moon On Our Nation (ver 1.4.6)  https://github.com/moononournation/Arduino_GFX
 + lvgl by kisvegabor (ver 8.4.0)    https://github.com/lvgl/lvgl/releases/tag/v8.4.0
 + for capacitive touch: TouchLib by mmMicky add library from zip file  https://github.com/mmMicky/TouchLib
