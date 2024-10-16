@@ -48,7 +48,7 @@ Need install library:
 + lvgl by kisvegabor (ver 8.4.0)    https://github.com/lvgl/lvgl/releases/tag/v8.4.0
 + for capacitive touch: TouchLib by mmMicky add library from zip file  https://github.com/mmMicky/TouchLib
 + for resistance touch: XPT2046_Touchscreen by Paul Stoffregen (ver. 1.4) https://github.com/PaulStoffregen/XPT2046_Touchscreen.git
-+ for resistance touch modify touch.h file like this:
++ for resistance touch modify touch.h file as shown below:
 
 ```
   /* uncomment for XPT2046 */
@@ -70,7 +70,7 @@ Need install library:
 // #define TOUCH_INT 3
 ```
 + Please config the touch panel in touch.h
-+ use functions from touch.h
++ use functions from touch.h as shown below:
 ```
 #include "touch.h"
 //----------------------------
@@ -88,7 +88,8 @@ if (touch_has_signal())
 //---------------------------
 ```
 
-Move lv_conf.h file to ..../Arduino/libraries directory
++ Move lv_conf.h file (from Examples/Demo_Arduino
+/Libraries folder) to ..../Arduino/libraries directory
 
 WARNING: install lvgl ver 8.4.0 !!!
 
