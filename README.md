@@ -72,7 +72,9 @@ Need install library:
 + Please config the touch panel in touch.h
 + use functions from touch.h
 ```
-  if (touch_has_signal())
+#include "touch.h"
+//----------------------------
+if (touch_has_signal())
   {
     if (touch_touched())
     {
@@ -83,7 +85,7 @@ Need install library:
       // your code here
     }
   }
-
+//---------------------------
 ```
 
 Move lv_conf.h file to ..../Arduino/libraries directory
