@@ -49,6 +49,7 @@ Need install library:
 + for capacitive touch: TouchLib by mmMicky add library from zip file  https://github.com/mmMicky/TouchLib
 + for resistance touch: XPT2046_Touchscreen by Paul Stoffregen (ver. 1.4) https://github.com/PaulStoffregen/XPT2046_Touchscreen.git
 + for resistance touch modify touch.h file like this:
+
   ```
   /* uncomment for XPT2046 */
  #define TOUCH_XPT2046
