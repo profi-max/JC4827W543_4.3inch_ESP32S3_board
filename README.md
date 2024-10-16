@@ -14,7 +14,6 @@
 + 480 x 272 screen resolution
 + RGB 65K 16 bit
 + Onboard 240MHz ESP32-S3-WROOM-1-N4R8 dual-core
-+ integrated WI-FI and Bluetooth
 + 520K Byte RAM
 + 8 MB PSRAM (OSPI)
 + 4 MB Flash memory (QSPI)
