@@ -50,7 +50,7 @@ Need install library:
 + for resistance touch: XPT2046_Touchscreen by Paul Stoffregen (ver. 1.4) https://github.com/PaulStoffregen/XPT2046_Touchscreen.git
 + for resistance touch modify touch.h file like this:
 
-  ```
+```
   /* uncomment for XPT2046 */
  #define TOUCH_XPT2046
  #define TOUCH_XPT2046_SCK 12
@@ -68,7 +68,7 @@ Need install library:
 // #define TOUCH_SDA 8
 // #define TOUCH_RES 38
 // #define TOUCH_INT 3
-  ```
+```
 + Please config the touch panel in touch.h
 + use functions from touch.h
 ```
